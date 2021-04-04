@@ -606,3 +606,19 @@ transform-origin: top;
 	width: calc(100% - (10px * 2));
 	margin: 20px;
 }
+
+.grid-container-contact {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+}
+.grid-item-contact {
+  width: 7%;
+	align-content: center;
+}
+.grid-container-contact img{
+	width: calc(100% - (20px * 2));
+	margin: 30px;
+  margin-top:5px;
+}
