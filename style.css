@@ -90,7 +90,7 @@ p {
 }
 
 a {
-
+text-decoration: none;
 }
 
 a:hover {
@@ -176,7 +176,7 @@ a:hover {
 
   .acid {
 
-    top: -10vh;
+    top: -30vh;
     right: 0;
   }
 
@@ -199,13 +199,18 @@ a:hover {
 }
 
 .self {
-  transform: scale(0.15,0.15);
+  transform: scale(1.7,1.7);
   position: relative;
+  top:-20vh;
+  left:35vh;
 }
 
 .about{
   text-align:center;
   line-height: 0.9;
+  left:-20vh;
+  top: 40vh;
+  text-decoration: none;
 }
 
 
@@ -436,7 +441,7 @@ transform-origin: top;
   height:10em;
   position: absolute;
   top: 50vh;
-  width: 70vw;
+  width: 71vw;
   background-image: radial-gradient(#DA2E2E 20%, transparent 20%),
   radial-gradient(#DA2E2E 20%, transparent 20%);
   background-color: none;
@@ -570,19 +575,13 @@ transform-origin: top;
   justify-content: center;
   margin-top: 2em;
 }
-.grid-item {
-  width: 30%;
-	align-content: center;
-}
 .grid-container img{
 	width: calc(100% - (20px * 2));
 	margin: 30px;
 }
-#acid{
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 .grid-container-02 {
@@ -679,4 +678,12 @@ transform-origin: top;
 	width: calc(100% - (10px * 2));
 	margin: 20px;
 }
+.home-logo {
+    display: none;
+}
+
+@media (min-width: 50em) {
+    .home-logo {
+        display: grid;
+    }
 }
